@@ -18,17 +18,17 @@ plugins+=(aws)
 # User configuration
 # make path to have unique values
 typeset -U path
-path+=($HOME/bin $HOME/.yarn/bin $HOME/.local/bin $HOME/.dotnet/tools $HOME/.luarocks/bin $HOME/Android/Sdk/platform-tools $HOME/Android/Sdk/tools/bin $HOME/Android/Sdk/cmdline-tools/latest/bin)
+path+=($HOME/bin $HOME/.yarn/bin $HOME/.local/bin $HOME/.dotnet/tools)
 fpath+=($ZSH/custom/completions)
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export EDITOR=vim
 export GPG_TTY=$(tty)
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init --path)"
+# eval "$(pyenv init -)"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -42,7 +42,7 @@ bindkey '[B' history-beginning-search-forward
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 ############### before prompt ############
-taskbook
+# taskbook
 
 [[ -f ~/.fzf.zsh ]] && source ~/.fzf.zsh
 

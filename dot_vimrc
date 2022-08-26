@@ -42,7 +42,7 @@ else
   set signcolumn=auto
 endif
 
-let mapleader=","
+let mapleader="'"
 syntax on
 
 " disable pandoc's filetype overwrite

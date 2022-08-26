@@ -1,1 +1,0 @@
-/home/changyoung/.vimrc

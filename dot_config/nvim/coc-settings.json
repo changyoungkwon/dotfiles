@@ -8,6 +8,7 @@
       "settings": {}
     }
   },
+  "snippets.ultisnips.enable": false,
   "coc.preferences.enableMarkdown": false,
   "coc.preferences.enableMessageDialog": true,
   "coc.preferences.extensionUpdateCheck": "weekly",
