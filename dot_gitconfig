@@ -4,3 +4,7 @@ lg = !"git lg1"
 
 [core]
 pager = npx git-split-diffs --color | less -RFX
+
+[user]
+name = Changyoung Kwon
+email = changyoung.kwon.illugrammer@gmail.com
