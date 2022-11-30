@@ -96,13 +96,15 @@
     }
   },
   "explorer.file.reveal.auto": true,
+  "explorer.file.showHiddenFiles":true,
+  "explorer.trash.command": "gio trash %l",
   "explorer.previewAction.onHover": false,
   "go.goplsPath": "/home/changyoung/go/bin/gopls",
   "go.goplsUseDaemon": true,
   "go.goplsOptions": {
     "usePlaceholders": true,
     "hoverKind": "FullDocumentation",
-    "gofumpt": true,
+    "gofumpt": true
   },
   "omnisharp.version": "v1.37.3",
   "omnisharp.trace.server": "verbose",
